@@ -34,6 +34,10 @@ body{
     color: white;
     padding: 10px 40px;
 }
+.small-text{
+    font-size: 12px;
+    margin-top: 50px;
+}
 /* 2nd-section */
 h2{
     color: #13103A;
