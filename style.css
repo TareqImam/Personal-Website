@@ -3,6 +3,10 @@ body{
     margin: 0;
     color: #2C2C2C;
 }
+.curve-font{
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
 /* 1st-section */
 .flexible{
     display: flex;
@@ -13,10 +17,10 @@ body{
     padding: 5%;
 }
 .half img{
-    width: 80%;
+    width: 90%;
 }
 .half h1{
-    font-size: 40px;
+    font-size: 60px;
     padding-left: 5px;
     border-left: 5px solid #FF5959;
 }
@@ -55,6 +59,12 @@ h2{
     background: #fff9e6;
 }
 /* 3rd-and-4th-section */
+.fourth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+}
 h3{
     font-size: 35px;
 }
@@ -68,4 +78,20 @@ h3{
 .texts{
     width: 65%;
     padding: 10px;
+}
+/* 5th-section */
+#app-image{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+/* footer */
+.footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: #0B0D17;
+}
+.red{
+    color: #FF5959;
 }
